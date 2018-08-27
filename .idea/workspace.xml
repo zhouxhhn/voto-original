@@ -1,0 +1,2094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="admin:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../../bjl_admin/src/main/java/bjl/application/user/IUserAppService.java" description="JSONObject modifyPhone(String username,String phon..." line="34" />
+    <bookmark url="file://$PROJECT_DIR$/../../bjl_admin/src/main/java/bjl/application/chatrecord/IChatRecordAppService.java" description="List&lt;ApiChatRecordRepresentation&gt; getChatRecord(St..." line="25" />
+    <bookmark url="file://$PROJECT_DIR$/../xiangyu/src/main/java/bjl/application/auth/IAuthAppService.java" description="AccountRepresentation login(LoginCommand command);" line="17" />
+    <bookmark url="file://$PROJECT_DIR$/../../bjl_admin/src/main/java/bjl/domain/service/user/IUserService.java" line="42" />
+    <bookmark url="file://$PROJECT_DIR$/../zunrong/src/main/java/bjl/application/recharge/IRechargeAppService.java" description="boolean payNotify(ThirdPayNotify notify);" line="31" />
+    <bookmark url="file://$PROJECT_DIR$/../xinhao/src/main/java/bjl/domain/service/sync/ISyncService.java" description="Object sync(Integer type, JSONObject jsonObject);" line="11" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4942f88a-f37c-451c-82c1-f2aa39a9752d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/activity/ActivityAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/activity/IActivityAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/activity/representation/ApiActivityRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/activity/representation/mapping/ApiActivityRepresentationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/command/EditAgentConfigCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/command/ListAgentCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/reprensentation/AgentRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/reprensentation/mapping/AgentRepresentationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/reprensentation/mapping/AgentSRepresentationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/bettable/BetTableAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/bettable/IBetTableAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/carousel/CarouselAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/carousel/ICarouselAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/carousel/representation/ApiCarouselRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/carousel/representation/mapping/ApiCarouselRepresentationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/guide/GuideAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/guide/IGuideAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/guide/reprensentation/ApiGuideRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/guide/reprensentation/mapping/ApiGuideRepresentationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/ip/IIpAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/ip/IpAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/phonebet/command/CountPhoneBetCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/phonebet/representation/PhoneBetRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/phonebet/representation/mapping/PhoneBetRepresentationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/profitrecord/IProfitRecordAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/profitrecord/ProfitRecordAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/ratio/IRatioAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/ratio/RatioAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/ratio/command/EditRatioCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/ratio/representation/RatioRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/ratio/representation/mapping/RatioRepresentationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/ratiocheck/IRatioCheckAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/ratiocheck/RatioCheckAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/ratiocheck/command/ListRatioCheckCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/recharge/IRechargeCtlAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/recharge/RechargeCtlAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/recharge/command/CreateRechargeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/recharge/command/EditRechargeCtlCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/recharge/command/ListRechargeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/robot/IRobotAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/robot/RobotAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/robot/command/CreateRobotChatCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/robot/command/CreateRobotCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/robot/command/ListRobotCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/robot/representation/ApiRobotRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/robot/representation/mapping/ApiRobotRepresentationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/scoretable/IScoreTableAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/scoretable/ScoreTableAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/spreadprofit/ISpreadProfitAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/spreadprofit/SpreadProfitAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/spreadprofit/command/ListSpreadProfitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/spreadprofit/command/ProfitDetailedCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/spreadprofit/command/SpreadProfitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/spreadprofit/representation/ApiSpreadProfitRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/spreadprofit/representation/SpreadProfitRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/spreadprofit/representation/mapping/ApiSpreadProfitRepresentationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/spreadprofit/representation/mapping/SpreadProfitRepresentationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/systemconfig/ISystemConfigAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/systemconfig/SystemConfigAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/systemconfig/command/EditSystemConfigCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/upDownPoint/command/CreateUpDownPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/upDownPoint/command/SumUpDownPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/upDownPoint/command/TotalUpDownPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/command/TotalUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/representation/UserManagerRepresentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/withdraw/command/CreateWithdrawCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/application/withdraw/command/ListWithdrawCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/activity/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/activity/IActivityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/bettable/BetTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/bettable/IBetTableRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/carousel/Carousel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/carousel/ICarouselRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/guide/Guide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/guide/IGuideRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/ip/IIpRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/ip/Ip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/pay/JCNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/profitrecord/IProfitRecordRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/profitrecord/ProfitRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/ratio/IRatioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/ratio/Ratio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/ratiocheck/IRatioCheckRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/ratiocheck/RatioCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/robot/IRobotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/robot/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/scoretable/IScoreTableRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/scoretable/ScoreTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/spreadprofit/ISpreadProfitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/spreadprofit/SpreadProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/systemconfig/SystemConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/upDownPoint/IUpDownPointRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/upDownPoint/UpDownPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/withdraw/IWithdrawRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/withdraw/Withdraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/activity/ActivityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/activity/IActivityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/bettable/BetTableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/bettable/IBetTableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/carousel/CarouselService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/carousel/ICarouselService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/guide/GuideService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/guide/IGuideService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/ip/IIpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/ip/IpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/profitrecord/IProfitRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/profitrecord/ProfitRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/ratio/IRatioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/ratio/RatioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/ratiocheck/IRatioCheckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/ratiocheck/RatioCheckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/recharge/IRechargeCtlService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/recharge/RechargeCtlService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/robot/IRobotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/robot/RobotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/scoretable/IScoreTableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/scoretable/ScoreTableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/spreadprofit/ISpreadProfitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/spreadprofit/SpreadProfitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/systemconfig/ISystemConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/systemconfig/SystemConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/upDownPoint/UpDownPointService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/withdraw/IWithdrawService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/withdraw/WithdrawService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/UpDownPoint/UpDownPointRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/activity/ActivityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/bettable/BetTableRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/carousel/CarouselRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/guide/GuideRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/ip/IpRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/profitrecord/ProfitRecordRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/ratio/RatioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/ratiocheck/RatioCheckRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/robot/RobotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/scoretable/ScoreTableRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/spreadprofit/SpreadProfitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/withdrawa/WithdrawRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/activity/ActivityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/carousel/CarouselController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/guide/GuideController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/profit/ProfitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/ratio/RatioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/ratiocheck/RatioCheckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/recharge/api/ApiRechargeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/recharge/web/RechargeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/recharge/web/RechargeCtlController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/robot/RobotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/spread/SpreadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/systemconfig/SystemConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/transfer/TransferController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/withdraw/WithdrawController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/task/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/tcp/BusinessThreadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/websocket/MacaoWS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bjl/websocket/VietnamWS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/Activity.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/BetTable.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/Carouse.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/Guide.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ProfitRecord.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/Ratio.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/RatioCheck.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/RechargeCtl.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/Robot.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/Scoreable.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/SpreadProfit.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/SystemConfig.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/UpDownPoint.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/Withdraw.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ip.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/activity/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agent/detailed.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agent/first.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agent/ratio.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agent/second.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agentconfig/play.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agentconfig/second.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agentprofit/first.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agentprofit/second.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/carousel/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/guide/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hall/filipino.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hall/macao.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hall/vietnam.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/agentIndex.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profit/edit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ratiocheck/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/recharge/edit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/recharge/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/robot/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spread/detailed.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spread/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/spread/report.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/systemconfig/edit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/transfer/transfer.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/transfer/upDown.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/withdraw/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/datetime/jquery.jedate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/datetime/skin/jedate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/admin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/admin_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_12_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_12_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/account/AccountAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/account/AccountAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/account/IAccountAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/account/IAccountAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/account/representation/mapping/ApiAccountRepresentationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/account/representation/mapping/ApiAccountRepresentationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/agent/AgentAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/AgentAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/agent/AgentConfigAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/AgentConfigAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/agent/AgentProfitAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/AgentProfitAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/agent/IAgentAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/IAgentAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/agent/IAgentConfigAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/IAgentConfigAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/agent/IAgentProfitAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/IAgentProfitAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/agent/command/CountGameDetailedCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/command/CountGameDetailedCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/agent/command/ListAgentConfigCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/command/ListAgentConfigCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/agent/command/ListAgentProfitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/command/ListAgentProfitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/agent/reprensentation/AgentConfigRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/reprensentation/AgentConfigRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/agent/reprensentation/mapping/AgentConfigRepresentationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/agent/reprensentation/mapping/AgentConfigRepresentationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/chat/ChatAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/chat/ChatAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/chat/IChatAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/chat/IChatAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/chat/representation/mapping/ApiChatRepresentationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/chat/representation/mapping/ApiChatRepresentationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/chat/representation/mapping/ApiPushChatRepresentationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/chat/representation/mapping/ApiPushChatRepresentationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/financialSummary/FinancialSummaryAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/financialSummary/FinancialSummaryAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/financialSummary/IFinancialSummaryAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/financialSummary/IFinancialSummaryAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/financialSummary/representation/mapper/FinancialSummaryRepresentationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/financialSummary/representation/mapper/FinancialSummaryRepresentationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/gamebet/GameBetAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/gamebet/GameBetAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/gamebet/IGameBetAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/gamebet/IGameBetAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/gamedetailed/GameDetailedAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/gamedetailed/GameDetailedAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/gamedetailed/IGameDetailedAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/gamedetailed/IGameDetailedAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/gamedetailed/command/CreateGameDetailedCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/gamedetailed/command/CreateGameDetailedCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/gamedetailed/command/ListGameDetailedCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/gamedetailed/command/ListGameDetailedCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/logger/ILoggerAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/logger/ILoggerAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/logger/LoggerAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/logger/LoggerAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/notice/INoticeAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/notice/INoticeAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/notice/NoticeAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/notice/NoticeAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/notice/command/ListNoticeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/notice/command/ListNoticeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/notice/reprensentation/ApiNoticeRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/notice/reprensentation/ApiNoticeRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/notice/reprensentation/mapping/ApiNoticeRepresentationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/notice/reprensentation/mapping/ApiNoticeRepresentationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/personal/IPersonalAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/personal/IPersonalAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/personal/PersonalAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/personal/PersonalAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/personal/command/ListPersonalCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/personal/command/ListPersonalCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/personal/reprensentation/PersonalRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/personal/reprensentation/PersonalRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/personal/reprensentation/mapping/PersonalRepresentationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/personal/reprensentation/mapping/PersonalRepresentationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/phonebet/IPhoneBetAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/phonebet/IPhoneBetAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/phonebet/PhoneBetAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/phonebet/PhoneBetAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/playerlose/IPlayerLoseAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/playerlose/IPlayerLoseAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/playerlose/PlayerLoseAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/playerlose/PlayerLoseAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/playerlose/command/ListPlayerLoseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/playerlose/command/ListPlayerLoseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/playerlose/command/TotalPlayerLoseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/playerlose/command/TotalPlayerLoseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/playerlose/reprensentation/PlayerLoseRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/playerlose/reprensentation/PlayerLoseRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/recharge/IRechargeAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/recharge/IRechargeAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/recharge/RechargeAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/recharge/RechargeAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/transfer/ITransferAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/transfer/ITransferAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/transfer/TransferAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/transfer/TransferAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/transfer/command/ListTransferCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/transfer/command/ListTransferCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/transfer/representation/mapping/ApiTransferRepresentationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/transfer/representation/mapping/ApiTransferRepresentationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/triratna/ITriratnaAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/triratna/ITriratnaAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/triratna/TriratnaAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/triratna/TriratnaAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/triratna/command/ListITriratnaCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/triratna/command/ListITriratnaCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/triratna/command/TotalTriratna.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/triratna/command/TotalTriratna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/triratna/representation/TriratnaRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/triratna/representation/TriratnaRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/upDownPoint/IUpDownPointAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/upDownPoint/IUpDownPointAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/upDownPoint/UpDownPointAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/upDownPoint/UpDownPointAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/upDownPoint/command/UpDownPointCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/upDownPoint/command/UpDownPointCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/upDownPoint/representation/UpDownPointRepresentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/upDownPoint/representation/mapper/UpDownPointRepresentationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/IUserManagerAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/IUserManagerAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/UserManagerAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/UserManagerAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/command/ListUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/command/ListUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/command/ModifyUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/command/ModifyUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/command/RegisterUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/command/RegisterUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/representation/mapping/UserManagerRepresentationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/userManager/representation/mapping/UserManagerRepresentationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/withdraw/IWithdrawAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/withdraw/IWithdrawAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/application/withdraw/WithdrawAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/application/withdraw/WithdrawAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/api/MessageID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/api/MessageID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/chat/ChatProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/chat/ChatProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/chat/CountDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/chat/CountDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/common/PasswordHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/common/PasswordHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/enums/PayType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/enums/PayType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/message/MessageCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/message/MessageCoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/timer/AgentProfitTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/timer/AgentProfitTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/upload/FileUploadConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/upload/FileUploadConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/upload/FileUploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/upload/FileUploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/upload/IFileUploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/upload/IFileUploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/util/CoreHttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/util/CoreHttpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/util/CoreImgUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/util/CoreImgUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/core/util/ServiceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/core/util/ServiceUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/account/IAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/account/IAccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/agent/AgentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/agent/AgentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/agent/AgentProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/agent/AgentProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/agent/IAgentConfigRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/agent/IAgentConfigRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/agent/IAgentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/agent/IAgentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/chat/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/chat/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/financialSummary/FinancialSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/financialSummary/FinancialSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/financialSummary/IFinancialSummaryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/financialSummary/IFinancialSummaryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/gamedetailed/IGameDetailedRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/gamedetailed/IGameDetailedRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/notice/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/notice/Notice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/pay/ThirdPayNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/pay/PayNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/phonebet/IPhoneBetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/phonebet/IPhoneBetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/phonebet/PhoneBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/phonebet/PhoneBet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/recharge/IRechargeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/recharge/IRechargeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/recharge/Recharge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/recharge/Recharge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/recharge/RechargeCtl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/recharge/RechargeCtl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/scoredetailed/ScoreDetailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/scoredetailed/ScoreDetailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/system/ISystemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/systemconfig/ISystemConfigRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/system/System.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/transfer/Transfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/transfer/Transfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/model/user/IUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/model/user/IUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/account/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/account/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/account/IAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/account/IAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/agent/AgentConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/agent/AgentConfigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/agent/AgentProfitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/agent/AgentProfitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/agent/AgentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/agent/AgentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/agent/IAgentConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/agent/IAgentConfigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/agent/IAgentProfitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/agent/IAgentProfitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/agent/IAgentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/agent/IAgentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/bank/BankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/bank/BankService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/chat/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/chat/ChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/chat/IChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/chat/IChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/financialSummary/FinancialSummaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/financialSummary/FinancialSummaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/financialSummary/IFinancialSummaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/financialSummary/IFinancialSummaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/gamedetailed/GameDetailedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/gamedetailed/GameDetailedService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/gamedetailed/IGameDetailedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/gamedetailed/IGameDetailedService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/logger/ILoggerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/logger/ILoggerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/logger/LoggerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/logger/LoggerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/notice/INoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/notice/INoticeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/notice/NoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/notice/NoticeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/personal/IPersonalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/personal/IPersonalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/personal/PersonalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/personal/PersonalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/phonebet/IPhoneBetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/phonebet/IPhoneBetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/phonebet/PhoneBetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/phonebet/PhoneBetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/playerlose/IPlayerLoseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/playerlose/IPlayerLoseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/playerlose/PlayerLoseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/playerlose/PlayerLoseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/recharge/IRechargeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/recharge/IRechargeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/recharge/RechargeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/recharge/RechargeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/role/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/role/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/safebox/SafeBoxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/safebox/SafeBoxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/scoredetailed/ScoreDetailedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/scoredetailed/ScoreDetailedService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/transfer/ITransferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/transfer/ITransferService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/transfer/TransferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/transfer/TransferService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/triratna/ITriratnaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/triratna/ITriratnaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/triratna/TriratnaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/triratna/TriratnaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/upDownPoint/IUpDownPointService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/upDownPoint/IUpDownPointService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/update/UpdateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/update/UpdateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/userManager/IUserManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/userManager/IUserManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/domain/service/userManager/UserManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/domain/service/userManager/UserManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/account/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/account/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/agent/AgentConfigRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/agent/AgentConfigRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/agent/AgentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/agent/AgentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/gamedetailed/GameDetailedRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/gamedetailed/GameDetailedRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/phonebet/PhoneBetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/phonebet/PhoneBetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/recharge/RechargeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/recharge/RechargeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/system/SystemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/systemconfig/SystemConfigRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/account/web/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/account/web/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/agent/AgentConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/agent/AgentConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/agent/AgentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/agent/AgentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/agent/AgentProfitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/agent/AgentProfitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/auth/web/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/auth/web/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/gamebet/GameBetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/gamebet/GameBetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/gamedetailed/GameDetailedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/gamedetailed/GameDetailedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/notice/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/notice/NoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/personal/PersonalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/personal/PersonalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/playerlose/PlayerLoseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/playerlose/PlayerLoseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/triratna/TriratnaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/triratna/TriratnaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/upDownPoint/web/UpDownPointController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/upDownPoint/web/UpDownPointController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/interfaces/userManager/web/UserManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/interfaces/userManager/web/UserManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/tcp/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/tcp/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/tcp/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/tcp/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/tcp/GlobalVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/tcp/GlobalVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/websocket/EventProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/websocket/EventProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/websocket/PhilippinesWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/websocket/PhilippinesWS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/websocket/command/GameStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/websocket/command/GameStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bjl/websocket/command/WSMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjl/websocket/command/WSMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/Account.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/Account.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/AgentConfig.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/AgentConfig.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/AgentProfit.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/AgentProfit.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/Chat.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/Chat.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/FinancialSummary.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/FinancialSummary.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/Notice.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/Notice.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/PhoneBet.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/PhoneBet.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/Recharge.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/Recharge.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/System.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/Transfer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/Transfer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-upload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-upload.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agentconfig/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agentconfig/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agentprofit/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agentprofit/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/financialSummary/FinancialSummary.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/financialSummary/FinancialSummary.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gamebet/philippines.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gamebet/philippines.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gamedetailed/game_detailed.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gamedetailed/game_detailed.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/operationLog/OperationLog.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/operationLog/OperationLog.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pay/pay_redirect.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pay/pay_redirect_jc.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/personal/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/personal/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/phonebet/phoneBetting.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/phonebet/phoneBetting.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/playerlose/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/playerlose/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/triratna/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/triratna/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upDownPoint/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upDownPoint/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/PlayerManagement.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/PlayerManagement.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/main/css/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/main/css/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/main/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/main/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/main/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/main/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/ueditor/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/ueditor/third-party/highcharts/highcharts.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/admin$vote.coverage" NAME="vote Coverage Results" MODIFIED="1522028088043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="EchoServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bjl/tcp/EchoServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="47" column="69" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageCoding.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bjl/core/message/MessageCoding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUserManagerAppService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/userManager/IUserManagerAppService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManagerAppService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/userManager/UserManagerAppService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="912">
+              <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+              <folding>
+                <element signature="e#2402#2403#0" expanded="true" />
+                <element signature="e#2458#2459#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUserManagerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bjl/domain/service/userManager/IUserManagerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManagerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bjl/domain/service/userManager/UserManagerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6156">
+              <caret line="370" column="34" selection-start-line="370" selection-start-column="28" selection-end-line="370" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EchoServerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bjl/tcp/EchoServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1235">
+              <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PushMessage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bjl/core/message/PushMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/index.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusinessThreadUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bjl/tcp/BusinessThreadUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>10.0.0.20</find>
+      <find>10.0.0.200</find>
+      <find>lottery</find>
+      <find>3</find>
+      <find>364</find>
+      <find>edit</find>
+      <find>游戏</find>
+      <find>游戏下注</find>
+      <find>operatingBtn</find>
+      <find>1</find>
+      <find>abs</find>
+      <find>Fee</find>
+      <find>data-id</find>
+      <find>鞋</find>
+      <find>addScore</find>
+      <find>/pagination/first</find>
+      <find>temp</find>
+      <find>R</find>
+      <find>init</find>
+      <find>/</find>
+      <find>/play</find>
+      <find>/paginationSub</find>
+      <find>/agent</find>
+      <find>role</find>
+      <find>lotteryBlob</find>
+      <find>complete</find>
+      <find>s</find>
+      <find>System.out.println(&quot;complete&quot;)</find>
+      <find>&quot;complete&quot;</find>
+      <find>imgDiv</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zhangjin &lt;zhangjin373@sina.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/guide/IGuideAppService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/guide/reprensentation/ApiGuideReprensentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/guide/reprensentation/mapping/ApiGuideReprensentationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/guide/GuideAppService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/carousel/representation/mapping/ApiGuideRepresentationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/carousel/representation/ApiGuideRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/carousel/representation/ApiCarouselRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/guide/reprensentation/mapping/ApiGuideRepresentationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/carousel/representation/mapping/ApiCarouselRepresentationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/carousel/ICarouselAppService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/domain/service/carousel/ICarouselService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/domain/service/carousel/CarouselService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/carousel/CarouselAppService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/domain/service/activity/IActivityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/domain/service/activity/ActivityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/activity/IActivityAppService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/activity/ActivityAppService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/core/util/ServiceUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/core/message/MessageCoding.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hall/macao.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hall/vietnam.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/tcp/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/notice/reprensentation/ApiNoticeRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/activity/representation/ApiActivityRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/notice/reprensentation/mapping/ApiNoticeRepresentationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/activity/representation/mapping/ApiActivityRepresentationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/transfer/TransferAppService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/domain/service/userManager/IUserManagerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/userManager/IUserManagerAppService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/userManager/UserManagerAppService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/domain/model/ip/Ip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/infrastructure/persistence/hibernate/ip/IpRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/domain/service/ip/IIpService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/ip/IIpAppService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/userManager/command/RegisterUserCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/domain/model/account/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/Account.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/userManager/representation/UserManagerRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/application/userManager/representation/mapping/UserManagerRepresentationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/PlayerManagement.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/domain/service/userManager/UserManagerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/core/upload/FileUploadConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-upload.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/main/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/domain/service/transfer/TransferService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/interfaces/spread/SpreadController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hall/filipino.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/core/chat/ChatProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/tcp/EchoServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bjl/core/api/MessageID.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="admin" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="admin" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JpaQlInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bjl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bjl" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bjl" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bjl" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bjl" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bjl" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bjl" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bjl" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="voto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vote_bak" type="462c0819:PsiDirectoryNode" />
+              <item name="voto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15269886" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\.IntelliJIdea2017.1\projects\micro-vote\src\main\webapp\WEB-INF\views\main" />
+      <recent name="C:\Users\Administrator\.IntelliJIdea2017.1\projects\bjl_admin\src\main\webapp\WEB-INF\views\user\register" />
+      <recent name="C:\Users\Administrator\.IntelliJIdea2017.1\projects\bjl_admin\src\main\webapp\resources\img\newRe" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\.IntelliJIdea2017.1\projects\vote_bak\src\main\java\bjl\application" />
+      <recent name="C:\Users\Administrator\.IntelliJIdea2017.1\projects\vote_bak\src\main\java\bjl\domain\service" />
+      <recent name="C:\Users\Administrator\.IntelliJIdea2017.1\projects\vote_bak\src\main\resources\mapping" />
+      <recent name="C:\Users\Administrator\.IntelliJIdea2017.1\projects\vote_bak\src\main\java\bjl\domain\model" />
+      <recent name="C:\Users\Administrator\.IntelliJIdea2017.1\projects\vote_bak\src\main\webapp\WEB-INF\views\guide" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bjl.infrastructure.persistence.hibernate.ip" />
+      <recent name="bjl.application.carousel.representation.mapping" />
+      <recent name="bjl.application.carousel.representation" />
+      <recent name="bjl.application.spreadprofit.representation.mapping" />
+      <recent name="bjl.application.spreadprofit.representation" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bjl.infrastructure.persistence.hibernate.UpDownPoint" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="vote" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:10012/main" />
+      <deployment>
+        <artifact name="admin:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_admin_4" />
+        <option name="HTTP_PORT" value="10012" />
+        <option name="JNDI_PORT" value="1012" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59744" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="admin:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4942f88a-f37c-451c-82c1-f2aa39a9752d" name="Default" comment="" />
+      <created>1509592987877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509592987877</updated>
+      <workItem from="1509592989130" duration="19670000" />
+      <workItem from="1509671163730" duration="9598000" />
+      <workItem from="1509696248851" duration="2928000" />
+      <workItem from="1509960511101" duration="2343000" />
+      <workItem from="1510039786930" duration="751000" />
+      <workItem from="1510206848281" duration="629000" />
+      <workItem from="1510276594259" duration="618000" />
+      <workItem from="1510541485927" duration="3880000" />
+      <workItem from="1510569803047" duration="3398000" />
+      <workItem from="1510621903767" duration="22000" />
+      <workItem from="1510708648559" duration="6305000" />
+      <workItem from="1510795056783" duration="260000" />
+      <workItem from="1510799019242" duration="2086000" />
+      <workItem from="1510802572745" duration="201000" />
+      <workItem from="1510811065337" duration="1283000" />
+      <workItem from="1510815156252" duration="4039000" />
+      <workItem from="1510884770811" duration="12773000" />
+      <workItem from="1511148562939" duration="5547000" />
+      <workItem from="1511159073506" duration="493000" />
+      <workItem from="1511253186010" duration="618000" />
+      <workItem from="1511399713161" duration="2237000" />
+      <workItem from="1511416711727" duration="15318000" />
+      <workItem from="1511502445788" duration="14929000" />
+      <workItem from="1511572484595" duration="5787000" />
+      <workItem from="1511578681656" duration="68000" />
+      <workItem from="1511592031703" duration="255000" />
+      <workItem from="1511593482323" duration="2877000" />
+      <workItem from="1512610729486" duration="842000" />
+      <workItem from="1513064087709" duration="5446000" />
+      <workItem from="1513130853115" duration="7313000" />
+      <workItem from="1513155315688" duration="3997000" />
+      <workItem from="1513213597974" duration="23822000" />
+      <workItem from="1513303960203" duration="13748000" />
+      <workItem from="1513560133720" duration="11339000" />
+      <workItem from="1513651240850" duration="4051000" />
+      <workItem from="1513732628629" duration="3071000" />
+      <workItem from="1513819196337" duration="5716000" />
+      <workItem from="1513905369973" duration="1856000" />
+      <workItem from="1513933288991" duration="3505000" />
+      <workItem from="1513993421842" duration="1773000" />
+      <workItem from="1513995249237" duration="16973000" />
+      <workItem from="1514019264994" duration="1001000" />
+      <workItem from="1514021748576" duration="810000" />
+      <workItem from="1514164138839" duration="26219000" />
+      <workItem from="1514250172598" duration="29032000" />
+      <workItem from="1514336668123" duration="34831000" />
+      <workItem from="1514423398563" duration="37606000" />
+      <workItem from="1514509768837" duration="15139000" />
+      <workItem from="1514854769670" duration="30959000" />
+      <workItem from="1514941738100" duration="35615000" />
+      <workItem from="1515028154400" duration="25406000" />
+      <workItem from="1515114782553" duration="24578000" />
+      <workItem from="1515201043722" duration="24063000" />
+      <workItem from="1515373664614" duration="25575000" />
+      <workItem from="1515460033792" duration="22374000" />
+      <workItem from="1515546886736" duration="23197000" />
+      <workItem from="1515639324998" duration="12554000" />
+      <workItem from="1515719375115" duration="29388000" />
+      <workItem from="1515760694067" duration="2601000" />
+      <workItem from="1515978145284" duration="49812000" />
+      <workItem from="1516072102895" duration="7536000" />
+      <workItem from="1516151524554" duration="36343000" />
+      <workItem from="1516238052280" duration="24930000" />
+      <workItem from="1516324214002" duration="3547000" />
+      <workItem from="1516410381381" duration="26792000" />
+      <workItem from="1516584567899" duration="22430000" />
+      <workItem from="1516670178335" duration="26980000" />
+      <workItem from="1516756837108" duration="7163000" />
+      <workItem from="1516764016927" duration="28704000" />
+      <workItem from="1516843674315" duration="28024000" />
+      <workItem from="1516929890550" duration="3630000" />
+      <workItem from="1517102713301" duration="23238000" />
+      <workItem from="1517187852494" duration="24289000" />
+      <workItem from="1517275438896" duration="21905000" />
+      <workItem from="1517361543574" duration="27585000" />
+      <workItem from="1517448275787" duration="21001000" />
+      <workItem from="1517534966162" duration="16916000" />
+      <workItem from="1517560543837" duration="1331000" />
+      <workItem from="1517620233835" duration="21146000" />
+      <workItem from="1517793215938" duration="13462000" />
+      <workItem from="1517880205086" duration="2755000" />
+      <workItem from="1517901847013" duration="6634000" />
+      <workItem from="1517965807749" duration="10894000" />
+      <workItem from="1518053057142" duration="4499000" />
+      <workItem from="1518069586218" duration="21829000" />
+      <workItem from="1518139180581" duration="21707000" />
+      <workItem from="1518226156713" duration="8666000" />
+      <workItem from="1519262878809" duration="10021000" />
+      <workItem from="1519294497637" duration="160000" />
+      <workItem from="1519347532590" duration="1201000" />
+      <workItem from="1519694859830" duration="7858000" />
+      <workItem from="1519780239396" duration="5085000" />
+      <workItem from="1519866427763" duration="21040000" />
+      <workItem from="1519954019402" duration="16696000" />
+      <workItem from="1520211983430" duration="18576000" />
+      <workItem from="1520245561341" duration="1258000" />
+      <workItem from="1520298305396" duration="2877000" />
+      <workItem from="1520325281852" duration="2346000" />
+      <workItem from="1520390906274" duration="10187000" />
+      <workItem from="1520471587685" duration="17705000" />
+      <workItem from="1520559546507" duration="22057000" />
+      <workItem from="1520644025688" duration="23762000" />
+      <workItem from="1520817250644" duration="14024000" />
+      <workItem from="1520904034830" duration="7036000" />
+      <workItem from="1521008003790" duration="5617000" />
+      <workItem from="1521103967816" duration="1259000" />
+      <workItem from="1521162810943" duration="19578000" />
+      <workItem from="1521422236959" duration="9015000" />
+      <workItem from="1521511421048" duration="1330000" />
+      <workItem from="1521526679216" duration="6121000" />
+      <workItem from="1521616497369" duration="625000" />
+      <workItem from="1521682640618" duration="13107000" />
+      <workItem from="1521713886857" duration="1641000" />
+      <workItem from="1521768346758" duration="15391000" />
+      <workItem from="1521853759570" duration="11443000" />
+      <workItem from="1521897284433" duration="1917000" />
+      <workItem from="1522027308311" duration="3947000" />
+      <workItem from="1522050099723" duration="1442000" />
+      <workItem from="1522059161437" duration="45000" />
+      <workItem from="1522113232311" duration="31000" />
+      <workItem from="1522138180668" duration="329000" />
+      <workItem from="1522286446381" duration="766000" />
+      <workItem from="1522664827244" duration="7214000" />
+      <workItem from="1522737510843" duration="2808000" />
+      <workItem from="1522742893465" duration="5241000" />
+      <workItem from="1522805184882" duration="12820000" />
+      <workItem from="1523086169263" duration="4594000" />
+      <workItem from="1523150190531" duration="675000" />
+      <workItem from="1523151613181" duration="5201000" />
+      <workItem from="1523170460962" duration="9878000" />
+      <workItem from="1523237318861" duration="31645000" />
+      <workItem from="1523410741161" duration="2174000" />
+      <workItem from="1523418267221" duration="833000" />
+      <workItem from="1523432761592" duration="2491000" />
+      <workItem from="1523496809412" duration="11102000" />
+      <workItem from="1523586477689" duration="8247000" />
+      <workItem from="1523840982810" duration="3868000" />
+      <workItem from="1523858066042" duration="2177000" />
+      <workItem from="1523872455653" duration="1685000" />
+      <workItem from="1523945093611" duration="1829000" />
+      <workItem from="1524013495764" duration="11246000" />
+      <workItem from="1524100807058" duration="18854000" />
+      <workItem from="1524188333404" duration="3282000" />
+      <workItem from="1524207359299" duration="1247000" />
+      <workItem from="1524446398518" duration="13803000" />
+      <workItem from="1524532787707" duration="12116000" />
+      <workItem from="1524620314063" duration="18977000" />
+      <workItem from="1524703840094" duration="22382000" />
+      <workItem from="1524791356404" duration="33319000" />
+      <workItem from="1524877596200" duration="24345000" />
+      <workItem from="1525223396839" duration="28911000" />
+      <workItem from="1525309441805" duration="9980000" />
+      <workItem from="1525396731523" duration="14128000" />
+      <workItem from="1525484199425" duration="9856000" />
+      <workItem from="1525654973453" duration="20017000" />
+      <workItem from="1525741533074" duration="8050000" />
+      <workItem from="1525851423234" duration="607000" />
+      <workItem from="1525918068901" duration="1538000" />
+      <workItem from="1526001062326" duration="6858000" />
+      <workItem from="1526261279373" duration="7909000" />
+      <workItem from="1526364183702" duration="9196000" />
+      <workItem from="1526540935550" duration="5840000" />
+      <workItem from="1526606808457" duration="19572000" />
+      <workItem from="1526693369994" duration="347000" />
+      <workItem from="1526693964858" duration="4290000" />
+      <workItem from="1526883223513" duration="678000" />
+      <workItem from="1527066595756" duration="3117000" />
+      <workItem from="1527218648221" duration="616000" />
+      <workItem from="1527241452524" duration="1961000" />
+      <workItem from="1527664230003" duration="23000" />
+      <workItem from="1527668746504" duration="3963000" />
+      <workItem from="1527737638139" duration="23000" />
+      <workItem from="1527837985662" duration="5338000" />
+      <workItem from="1527902549326" duration="12735000" />
+      <workItem from="1528074343849" duration="2867000" />
+      <workItem from="1528160491455" duration="6339000" />
+      <workItem from="1528449830177" duration="621000" />
+      <workItem from="1528702935695" duration="5058000" />
+      <workItem from="1528766300084" duration="1351000" />
+      <workItem from="1528789537416" duration="240000" />
+      <workItem from="1528797659737" duration="1120000" />
+      <workItem from="1528852581352" duration="13586000" />
+      <workItem from="1528945111636" duration="2277000" />
+      <workItem from="1529054207332" duration="1457000" />
+      <workItem from="1529124035431" duration="714000" />
+      <workItem from="1529459373102" duration="1984000" />
+      <workItem from="1529486325033" duration="1207000" />
+      <workItem from="1529559729876" duration="15972000" />
+      <workItem from="1529634141798" duration="7027000" />
+      <workItem from="1529747543158" duration="1614000" />
+      <workItem from="1529894783939" duration="598000" />
+      <workItem from="1529907136687" duration="647000" />
+      <workItem from="1529908469879" duration="15336000" />
+      <workItem from="1529998291223" duration="2705000" />
+      <workItem from="1530066366204" duration="5795000" />
+      <workItem from="1530152069292" duration="13788000" />
+      <workItem from="1530236682412" duration="1469000" />
+      <workItem from="1530494388083" duration="11481000" />
+      <workItem from="1530609686094" duration="15000" />
+      <workItem from="1530752908672" duration="29000" />
+      <workItem from="1531203739065" duration="2182000" />
+      <workItem from="1531796015298" duration="1962000" />
+      <workItem from="1532484657735" duration="5179000" />
+      <workItem from="1532567110491" duration="671000" />
+      <workItem from="1532568253248" duration="522000" />
+      <workItem from="1532572866650" duration="1754000" />
+      <workItem from="1532939550292" duration="1564000" />
+    </task>
+    <task id="LOCAL-00001" summary="万豪提交">
+      <created>1511401196568</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511401196568</updated>
+    </task>
+    <task id="LOCAL-00002" summary="万豪提交">
+      <created>1511578732852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511578732852</updated>
+    </task>
+    <task id="LOCAL-00003" summary="主分支提交(基本版本)">
+      <created>1513236958489</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513236958489</updated>
+    </task>
+    <task id="LOCAL-00004" summary="测试">
+      <created>1513240900421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1513240900421</updated>
+    </task>
+    <task id="LOCAL-00005" summary="所有静态页面添加">
+      <created>1513323146461</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513323146461</updated>
+    </task>
+    <task id="LOCAL-00006" summary="二维码提交">
+      <created>1513848035870</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1513848035870</updated>
+    </task>
+    <task id="LOCAL-00007" summary="测试">
+      <created>1513905440959</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1513905440959</updated>
+    </task>
+    <task id="LOCAL-00008" summary="合并问题">
+      <created>1513934678968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1513934678968</updated>
+    </task>
+    <task id="LOCAL-00009" summary="零时">
+      <created>1513995134639</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1513995134639</updated>
+    </task>
+    <task id="LOCAL-00010" summary="零时">
+      <created>1513995184016</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1513995184016</updated>
+    </task>
+    <task id="LOCAL-00011" summary="各种提交">
+      <created>1514021555752</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1514021555752</updated>
+    </task>
+    <task id="LOCAL-00012" summary="合并提交">
+      <created>1514021650540</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1514021650540</updated>
+    </task>
+    <task id="LOCAL-00013" summary="微投提交">
+      <created>1515411325034</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1515411325034</updated>
+    </task>
+    <task id="LOCAL-00014" summary="微投提交">
+      <created>1515411402225</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1515411402225</updated>
+    </task>
+    <task id="LOCAL-00015" summary="微投提交">
+      <created>1515747603787</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1515747603787</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'remotes/origin/weixin' into zhangjin&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/bjl/interfaces/userManager/web/UserManagerController.java&#10;#&#9;src/main/webapp/WEB-INF/views/main/index.ftl&#10;#&#9;src/main/webapp/WEB-INF/views/user/PlayerManagement.ftl">
+      <created>1515748996306</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1515748996306</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'remotes/origin/weixin' into zhangjin&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/bjl/interfaces/userManager/web/UserManagerController.java&#10;#&#9;src/main/webapp/WEB-INF/views/main/index.ftl&#10;#&#9;src/main/webapp/WEB-INF/views/user/PlayerManagement.ftl">
+      <created>1515758874176</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1515758874176</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'remotes/origin/weixin' into zhangjin&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/bjl/interfaces/userManager/web/UserManagerController.java&#10;#&#9;src/main/webapp/WEB-INF/views/main/index.ftl&#10;#&#9;src/main/webapp/WEB-INF/views/user/PlayerManagement.ftl">
+      <created>1515758911923</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1515758911923</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch 'remotes/origin/weixin' into zhangjin&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/bjl/interfaces/userManager/web/UserManagerController.java&#10;#&#9;src/main/webapp/WEB-INF/views/main/index.ftl&#10;#&#9;src/main/webapp/WEB-INF/views/user/PlayerManagement.ftl">
+      <created>1515760203251</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1515760203251</updated>
+    </task>
+    <task id="LOCAL-00020" summary="全部提交">
+      <created>1516174041484</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516174041484</updated>
+    </task>
+    <task id="LOCAL-00021" summary="临时提交">
+      <created>1516174143258</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1516174143258</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1991291000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5197228" side_tool="true" weight="0.335141" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.329718" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="12" weight="0.32995737" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48027718" weight="0.335141" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.329718" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4914712" weight="0.4143167" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3557484" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.494302" visible="true" weight="0.27771854" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32995737" />
+      <window_info id="Web" order="2" sideWeight="0.505698" side_tool="true" weight="0.24040511" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.32995737" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3275488" />
+      <window_info anchor="right" id="Properties" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.329718" />
+      <window_info id="Designer" order="4" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.32995737" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3557484" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="right" id="Properties" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51759064" side_tool="true" weight="0.31995663" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3275488" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4914712" weight="0.4143167" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.494302" visible="true" weight="0.37153518" />
+      <window_info anchor="right" id="Database" order="12" weight="0.32995737" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" sideWeight="0.505698" side_tool="true" weight="0.24040511" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32995737" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4824094" visible="true" weight="0.39479393" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="万豪提交" />
+    <MESSAGE value="主分支提交(基本版本)" />
+    <MESSAGE value="所有静态页面添加" />
+    <MESSAGE value="二维码提交" />
+    <MESSAGE value="测试" />
+    <MESSAGE value="合并问题" />
+    <MESSAGE value="零时" />
+    <MESSAGE value="各种提交" />
+    <MESSAGE value="合并提交" />
+    <MESSAGE value="微投提交" />
+    <MESSAGE value="Merge remote-tracking branch 'remotes/origin/weixin' into zhangjin&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/bjl/interfaces/userManager/web/UserManagerController.java&#10;#&#9;src/main/webapp/WEB-INF/views/main/index.ftl&#10;#&#9;src/main/webapp/WEB-INF/views/user/PlayerManagement.ftl" />
+    <MESSAGE value="全部提交" />
+    <MESSAGE value="临时提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="临时提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="888" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/userManager/representation/UserManagerRepresentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/ip/IIpAppService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/ip/IpAppService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/domain/service/ip/IIpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="39" column="177" selection-start-line="39" selection-start-column="177" selection-end-line="39" selection-end-column="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/ip.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/domain/service/ip/IpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/userManager/command/RegisterUserCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/core/upload/IFileUploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/core/upload/FileUploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="459" column="35" selection-start-line="459" selection-start-column="35" selection-end-line="459" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/spreadprofit/ISpreadProfitAppService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/spreadprofit/SpreadProfitAppService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/core/upload/FileUploadConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/userManager/representation/mapping/UserManagerRepresentationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="28" column="126" selection-start-line="28" selection-start-column="126" selection-end-line="28" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/interfaces/FileUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voto/src/main/webapp/WEB-INF/views/hall/filipino.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="161" column="31" selection-start-line="161" selection-start-column="31" selection-end-line="161" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hall/macao.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="259" column="14" selection-start-line="259" selection-start-column="14" selection-end-line="259" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="467" column="1" selection-start-line="467" selection-start-column="1" selection-end-line="467" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/domain/service/transfer/TransferService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/transfer/ITransferAppService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-upload.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/domain/service/transfer/ITransferService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/transfer/TransferAppService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="85" column="52" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/interfaces/recharge/api/ApiRechargeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hall/filipino.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10621">
+          <caret line="559" column="9" selection-start-line="559" selection-start-column="9" selection-end-line="559" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/interfaces/spread/SpreadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="78" column="106" selection-start-line="78" selection-start-column="106" selection-end-line="78" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/core/chat/CountDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/core/chat/ChatProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7277">
+          <caret line="399" column="43" selection-start-line="399" selection-start-column="43" selection-end-line="399" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voto/src/main/webapp/WEB-INF/views/main/index.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/interfaces/auth/web/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.12.final/netty-all-4.1.12.Final-sources.jar!/io/netty/channel/ChannelHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.12.final/netty-all-4.1.12.Final-sources.jar!/io/netty/channel/ChannelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="182" column="115" selection-start-line="182" selection-start-column="52" selection-end-line="182" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.12.final/netty-all-4.1.12.Final-sources.jar!/io/netty/channel/ChannelInboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.12.final/netty-all-4.1.12.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/interfaces/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/core/util/ByteUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/core/api/MessageID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/userManager/IUserManagerAppService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/application/userManager/UserManagerAppService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+          <folding>
+            <element signature="e#2402#2403#0" expanded="true" />
+            <element signature="e#2458#2459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/domain/service/userManager/IUserManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/domain/service/userManager/UserManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6156">
+          <caret line="370" column="34" selection-start-line="370" selection-start-column="28" selection-end-line="370" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/tcp/BusinessThreadUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/core/message/MessageCoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/tcp/EchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/tcp/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="47" column="69" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bjl/core/message/PushMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>admin:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (admin)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|admin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.48</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
